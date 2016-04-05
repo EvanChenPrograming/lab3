@@ -26,7 +26,7 @@ void insertion_sort(vector<int> & v)
 int main()
 {
     Clock clk;
-    const int size = 1000;
+    const int size = 1000000;
     cout<<"\nsize = "<<size<<endl;
     vector<int> v1(size),v2;
     srandom(time(NULL));
