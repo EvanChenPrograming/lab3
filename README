@@ -1,0 +1,41 @@
+To compile and run question A, you can use a the makefile "make lab3A" 
+	or you can also type "g++ -o lab3A lab3A.cpp" in the command line.
+
+Here are the results for question B.
+
+
+
+size = 1000
+sort(): 42 seconds
+v1/v2 are different.
+insertion_sort(): 5276 seconds
+v1/v2 are the same.
+
+
+size = 10000
+sort(): 502 seconds
+v1/v2 are different.
+insertion_sort(): 354761 seconds
+v1/v2 are the same.
+
+
+size = 100000
+sort(): 5827 seconds
+v1/v2 are different.
+insertion_sort(): 3.60143e+07 seconds
+v1/v2 are the same.
+
+
+size = 1000000
+
+
+
+
+
+
+
+As the result shows.
+It took up about 502 seconds for sort() and 
+354761 seconds for insertion sort in size 1000.
+And in the other tests we can see that the result getting close to
+n log n and n^2.
